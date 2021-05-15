@@ -1,0 +1,234 @@
+RECONNAISSANCE
+
+
+1)eyewitness
+
+This tool is used to take screen shots of websites provide some server header
+info and identifies user id's and passwords.
+https://github.com/ChrisTruncer/EyeWitness
+https://www.christophertruncer.com/eyewitness-usage-guide/
+
+
+2)awsbucket dump
+
+This is a security tool to find files in AWS S3 buckets.This is used for
+configure audit,discovery of sensitive information.
+https://github.com/jordanpotti/AWSBucketDump
+
+
+3)aquatone
+
+This is a set of tools for performing reconnaissance on domain names.It is
+used to discover subdomains on a given domain by using subdomain dictionary 
+brute force.
+https://github.com/michenriksen/aquatone
+
+
+3)spoofcheck
+
+This will checks if a domain is spoofable and see weather we will succed or not 
+by manipulation and creation of a false email on our audit.
+https://github.com/BishopFox/spoofcheck
+
+
+4)nmap
+
+This tool is for vulnerability scanning and finding networks.It is used to
+discover hosts,open ports and detecting security risks on a computer network.
+https://github.com/nmap/nmap
+https://nmap.org/download.html
+
+
+5)dnsrecon
+
+This tool is used to check NS records for zone transfers,enumerate general
+dns records for a given domian,TLD expansion,enumerate subdomain and host,
+ptr record lookup.
+https://github.com/darkoperator/dnsrecon
+
+
+6)social mapper
+
+This tool searches for profile information from social media sites such as
+facebook,instagram..etc by taking names and photos as input.
+https://github.com/SpiderLabs/social_mapper
+
+
+7)skiptracer
+
+This tool is to get information of a target using email,name,phone and domain
+as input.
+https://github.com/xillwillx/skiptracer
+
+
+8)scrapedin
+
+This tool is to scrape linkedin by taking first name/last name/occupation/
+loacation/industry as input it gives it gives picture,full name and link
+to profile as oputput.
+https://github.com/dchrastil/ScrapedIn
+
+
+9)linkscrape
+
+This tool also deals with linked in as scrapedin tool.
+https://github.com/NickSanzotta/linkScrape
+
+
+10)foca
+
+This tool is to find metadata and hidden information in the documents it scans.
+document may be on web pages,and can be downloaded and analysed.
+https://github.com/ElevenPaths/FOCA
+https://www.elevenpaths.com/labstools/foca/index.html
+
+
+11)theharvester
+
+This tool is to gather information such as emails,subdomains,hosts,open ports
+and banners from different public sources.
+https://github.com/laramies/theHarvester
+
+
+12)metagoofil
+
+This tool is to gather information for extracting metadata of different
+documets.same aas foca tool.
+https://github.com/laramies/metagoofil
+
+
+13)simplyemail
+
+This tool is used to collect email adsresses from different public sources.
+https://github.com/killswitch-GUI/SimplyEmail
+https://simplysecurity.github.io/SimplyEmail/
+
+
+14)truffle hog
+
+This tool is used to check the user if they hace accidentally leaked any
+secret keys through projects they publish on github.
+https://github.com/dxa4481/truffleHog
+https://hub.docker.com/r/dxa4481/trufflehog
+https://github.com/dxa4481/truffleHogRegexes/blob/master/truffleHogRegexes/regexes.json
+
+
+15)just-metadata
+
+This tool is used to gather information about large number of ip addresses
+and performs analytics against them.
+https://github.com/ChrisTruncer/Just-Metadata
+
+
+16)typofinder
+
+This tool is to find domain typos.
+https://github.com/nccgroup/typofinder
+
+
+17)pwnedornot
+
+This tool is to find passwords of compromised email accounts and also checks 
+weather it is compromised or not.
+https://github.com/thewhiteh4t/pwnedOrNot
+
+
+18)githarvester
+
+This tool is used to gather information from github.
+https://github.com/metac0rtex/GitHarvester
+
+
+19)pwnndb
+
+This tool is used to search leaked credentials using onion services.
+https://github.com/davidtavarez/pwndb/
+
+ 
+20)maltego
+
+This is a data mining tool that renders graphs for link analysis.This is to
+find relation between pieces of information from various sources located on
+the internet.
+https://www.paterva.com/web7/downloads.php
+
+
+21)spiderfoot
+
+This tool is used to collect information of ip adresses,domain names,email
+addresses,usernames,names,subnets from many sources.
+https://github.com/smicallef/spiderfoot
+http://www.spiderfoot.net/
+
+
+
+22)datasploit
+
+Same as spiderfoot it collects information of domain name,email addresses,
+usernames and phone numbers.
+https://github.com/DataSploit/datasploit
+https://datasploit.github.io/datasploit/
+
+
+23)recon-ng
+
+This tool is used to gather information with its independent modules,key list
+and other modules.It uses online search engines,plugins and API for gathering
+the information of the target.
+https://bitbucket.org/LaNMaSteR53/recon-ng
+
+
+
+DATA EXFILTRATION
+
+It is a unauthorized copying,tranfer of data from a computer or server.
+
+
+1)cloakify factory
+
+It is a tool to transform  any type of file into a list of harmless and even useless 
+looking strings. This is to hide a data file in plain sight and used to transfer it
+over any network without any alerts.
+https://github.com/TryCatchHCF/Cloakify
+
+
+2)det
+
+It is a tool to exfiltarating data using either one or several channels at the same time.
+It is used to test the data leakage prevention solutions configuration.
+https://github.com/sensepost/DET
+
+
+3)dns exfiltration
+
+It is a way to exchange data between two computers without any direct connection,
+the data will exchange through DNS protocol. 
+https://github.com/Arno0x/DNSExfiltrator
+
+
+4)pyexfil
+
+The purpose of this is to set as many exfiltration,and now also communication,techniques
+that can be used by various malware around to bypass various detection and migration tools
+and techniques.
+https://github.com/ytisf/PyExfil
+
+
+5)egress-assess
+
+This is a tool to test egress data detection capabilities.It is used to test if there
+is a security control that will prevent sending data to to remote location.
+https://github.com/ChrisTruncer/Egress-Assess
+https://www.christophertruncer.com/egress-assess-testing-egress-data-detection-capabilities/
+https://www.christophertruncer.com/egress-assess-action-via-powershell/
+
+
+6)powershell rat
+
+It is a powershell script tool that has been made to help a pentester to backdoor windows.
+It tracks user activity and sends information to us as an e-mail attachment.
+https://github.com/Viralmaniar/Powershell-RAT
+
+
+
+
